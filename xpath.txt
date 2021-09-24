@@ -1,0 +1,4 @@
+Links = //div/a[contains(@class, "kicker")]/@href
+Título = //div[contains(@class,"OpeningPostNormal")]//h2/span/text()
+Resumen = //div[contains(@class,"lead")]//p/text()
+Cuerpo = //div[contains(@class,"html-content")]//p[not(@id)]/text()
